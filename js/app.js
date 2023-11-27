@@ -20,6 +20,11 @@ class UI {
             </div>
         `;
         productList.appendChild(element);
+        this.resetForm();
+    }
+
+    resetForm(){
+        document.getElementById('product-form').reset();
     }
 
     deleteProduct(){
